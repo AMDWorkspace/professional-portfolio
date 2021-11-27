@@ -11,6 +11,7 @@
     background-image: url(../Assets/programming-coding.jpeg);
     background-size: cover;
     background-position: center;
+    flex-wrap: wrap;
 }
 
 /* HEADER NAVIGATION */
@@ -26,6 +27,7 @@
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    flex-wrap: wrap;
 }
 
 .header nav {
@@ -34,6 +36,7 @@
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 25px;
+    flex-wrap: wrap;
 }
 
 .header nav ul {
@@ -43,4 +46,37 @@
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+/* END OF HEADER NAV */
+
+.about-me-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.about-me-grid-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 2fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px 10px;
+}
+
+.about-me-title {
+    padding-top: 0px;
+    font-size: 35px;
+    grid-row: 1 / span 4;
+    padding-right: 10px;
+    text-align: right;
+    border-right: 2px solid var();
+}
+
+.about-me-item {
+    padding-left: 10px;
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 2;
 }
