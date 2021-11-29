@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./Assets/style.css">
     <title>Alan Do's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
     <header class="header">
-        <h1>My Portfolio</h1>
+        <h1>Alan Do's Portfolio</h1>
         <nav>
             <ul>
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#work-tab">Work</a>
                 </li>
                 <li>
                     <a href="#contact-me">Contact Me</a>
@@ -28,10 +29,12 @@
         </nav>
     </header>
     
-    <section class="hero"></section>
+    <section class="hero">
     <div class="hero-subtitle">
         <span class="span-background opacity">Happy Coding!</span>
+        <img src="./Assets/photo-of-me.jpeg">
     </div>
+    </section>
 
     <main>
         <section class="contents">
@@ -55,16 +58,18 @@
                 <nav>
                     <ul>
                         <li>
-                            <div class="horiseon-img">
+                            <div class="flex-row">
                             <a href="https://amdworkspace.github.io/horiseon-code-refactor-challenge/">
                             <img src="./Assets/horiseon-screenshot.jpg">
                             </a>
                             </div>
                         </li>
                         <li>
+                            <div class="flex-row">
                             <a href="https://amdworkspace.github.io/run-buddy/">
                             <img src="./Assets/run-buddy-screenshot.jpg">
                             </a>
+                            </div>
                         </li>
                     </ul>
                 </nav>
@@ -78,7 +83,7 @@
         <div id="contact-me" class="footer-wrapper">
             <div class="footer-container">
                 <div class="footer-grid-item contact-me">
-                    Contact Me
+                    <h2>Contact Me</h2>
                 </div>
                 <div class="footer-grid-item phone">
                     <a href="tel:919.695.6540" class="nav-effects">919.695.6540</a>
