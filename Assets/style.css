@@ -13,6 +13,12 @@
     background-position: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h2 {
+    font-size: 70px;
+    
 }
 
 .hero-subtitle {
@@ -23,6 +29,7 @@
     font-size: 100px;
     line-height: 1.2;
     flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero img {
@@ -201,6 +208,10 @@
     .work-tab-title {
         text-align: center;
     }
+    .footer-container {
+        text-align: center;
+        flex-wrap: wrap;
+    }
     
 }
 
@@ -226,6 +237,9 @@
         text-align: center;
     }
     .work-tab-title {
+        text-align: center;
+    }
+    .footer-container {
         text-align: center;
     }
 }
