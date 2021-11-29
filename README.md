@@ -29,4 +29,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ![screenshot](https://github.com/AMDWorkspace/professional-portfolio/blob/main/my-portfolio-bottom.jpg)
 
 ## Deployed Page
-Page published at: 
+Page published at: https://amdworkspace.github.io/professional-portfolio/
