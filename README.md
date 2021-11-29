@@ -25,6 +25,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
+![screenshot](https://github.com/AMDWorkspace/professional-portfolio/blob/main/my-portfolio-top.jpg)
+![screenshot](https://github.com/AMDWorkspace/professional-portfolio/blob/main/my-portfolio-bottom.jpg)
 
 ## Deployed Page
-Page published at: 
+Page published at: https://amdworkspace.github.io/professional-portfolio/
